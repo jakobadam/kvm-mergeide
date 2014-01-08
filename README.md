@@ -1,5 +1,5 @@
 # kvm-mergeide
-kvm-mergeide.sh - Apply the mergeide.reg hack to kvm compatible windows images.
+kvm-mergeide - Apply the mergeide.reg hack to kvm compatible windows images.
 
 The mergeide fix relaxes the annoying windows requirements for same
 hardware. This avoids 0x0000007B errors after you move system disks
@@ -19,3 +19,10 @@ More:
 ## Usage
 
     sudo kvm-mergeide WINDOWS_IMAGE
+
+## TODO (maybe)
+
+If there are situations where the control set of the registry hive is
+not 001, mergeide_create_reg.py can extract the control set and create
+a proper mergeide.reg. This should be incorporated into the shell script.
+
