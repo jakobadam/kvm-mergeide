@@ -10,6 +10,12 @@ This script applies the fix automatically.
 More:
 * http://support.microsoft.com/kb/314082
 
+## Install
+
+   cd /opt
+   git clone https://github.com/jakobadam/kvm-mergeide.git
+   ln -s /opt/kvm-mergeide/kvm-mergeide.sh /usr/bin/kvm-mergeide
+
 ## Usage
 
-    sudo ./mergeide.sh WINDOWS_IMAGE
+    sudo kvm-mergeide WINDOWS_IMAGE
