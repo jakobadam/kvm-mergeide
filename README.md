@@ -12,9 +12,9 @@ More:
 
 ## Install
 
-   cd /opt
-   git clone https://github.com/jakobadam/kvm-mergeide.git
-   ln -s /opt/kvm-mergeide/kvm-mergeide.sh /usr/bin/kvm-mergeide
+    cd /opt
+    git clone https://github.com/jakobadam/kvm-mergeide.git
+    ln -s /opt/kvm-mergeide/kvm-mergeide.sh /usr/bin/kvm-mergeide
 
 ## Usage
 
