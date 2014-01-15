@@ -49,5 +49,7 @@ IMG=`readlink -e $1`
 
 cd $SCRIPTDIR
 
-./mergeide_create_reg.py "$IMG"
+# Maybe extract the currentcontrolset from windows registry
+# ./mergeide_create_reg.py "$IMG"
+
 virt-win-reg --merge "$IMG" $SCRIPTDIR/mergeide.reg
