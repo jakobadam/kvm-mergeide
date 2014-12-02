@@ -10,15 +10,19 @@ This script applies the fix automatically.
 More:
 * http://support.microsoft.com/kb/314082
 
+Tested on:
+* Windows Server 2003
+* Windows Server 2008 R2
+
 ## Install
 
-    cd /opt
-    git clone https://github.com/jakobadam/kvm-mergeide.git
-    ln -s /opt/kvm-mergeide/kvm-mergeide.sh /usr/bin/kvm-mergeide
+    $ cd /opt
+    $ git clone https://github.com/jakobadam/kvm-mergeide.git
+    $ ln -s /opt/kvm-mergeide/kvm-mergeide.sh /usr/bin/kvm-mergeide
 
 ## Usage
 
-    sudo kvm-mergeide WINDOWS_IMAGE
+    $ sudo kvm-mergeide WINDOWS_IMAGE
 
 ## TODO (maybe)
 
